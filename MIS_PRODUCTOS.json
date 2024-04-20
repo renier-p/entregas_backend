@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "title": "auto",
+    "description": "automovil",
+    "price": 1000,
+    "thumbnail": "img/img",
+    "code": "C02",
+    "stock": 10,
+    "category": "autos",
+    "status": true
+  }
+]

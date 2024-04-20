@@ -1,16 +1,20 @@
 const express = require("express");
 const router = express.Router();
+const Products = require("../products.js");
+const products = new Products("MIS_PRODUCTOS.json");
 
-const products = [];
+// const products = [];
 
 router.get("/products", (req, res) => {
+  products.getProduct(products);
   res.json(products);
 });
 
 router.post("/products", (req, res) => {
   const newProduct = req.body;
-  products.push(newProduct);
-  res.json({ message: "Producto agregado" });
+  products.addProduct(newProduct);
+  // products.push(newProduct);
+  res.json({ message: "Producto agregado correctamente" });
 });
 
 router.put("/products/:id", (req, res) => {
