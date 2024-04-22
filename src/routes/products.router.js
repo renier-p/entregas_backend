@@ -71,7 +71,7 @@ router.put("/products/:id", async (req, res) => {
 
       await products.saveProducts(productList);
 
-      res.json(productList[productIndex]);
+      res.json({ message: "Producto actualizado correctamente" });
     } else {
       res.status(404).json({ message: "Producto no encontrado" });
     }

@@ -1,35 +1,13 @@
 [
   {
-    "id": 1,
-    "title": "avion",
-    "description": "automovil",
-    "price": 1000,
+    "id": 2,
+    "title": "Camisa",
+    "description": "Camisa de Red Hot Chili Peppers",
+    "price": 300,
     "thumbnail": "img/img",
     "code": "C01",
     "stock": 10,
-    "category": "autos",
-    "status": true
-  },
-  {
-    "id": 2,
-    "title": "auto",
-    "description": "automovil",
-    "price": 1000,
-    "thumbnail": "img/img",
-    "code": "C02",
-    "stock": 10,
-    "category": "autos",
-    "status": true
-  },
-  {
-    "id": 3,
-    "title": "barco",
-    "description": "barco",
-    "price": 1000,
-    "thumbnail": "img/img",
-    "code": "C04",
-    "stock": 10,
-    "category": "barco",
+    "category": "ropa",
     "status": true
   }
 ]
