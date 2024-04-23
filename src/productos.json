@@ -9,5 +9,49 @@
     "stock": 10,
     "category": "ropa",
     "status": true
+  },
+  {
+    "id": 3,
+    "title": "Llavero",
+    "description": "Llavero de Red Hot Chili Peppersrco",
+    "price": 350,
+    "thumbnail": "img/img",
+    "code": "L01",
+    "stock": 15,
+    "category": "Llaveros",
+    "status": true
+  },
+  {
+    "id": 4,
+    "title": "Taza",
+    "description": "Taza de Red Hot Chili Peppers",
+    "price": 150,
+    "thumbnail": "img/img",
+    "code": "T01",
+    "stock": 10,
+    "category": "taza",
+    "status": true
+  },
+  {
+    "id": 5,
+    "title": "Gorra",
+    "description": "Gorra de Red Hot Chili Peppers",
+    "price": 400,
+    "thumbnail": "img/img",
+    "code": "G01",
+    "stock": 10,
+    "category": "Gorra",
+    "status": true
+  },
+  {
+    "id": 6,
+    "title": "Sueter",
+    "description": "Sueter de Red Hot Chili Peppers",
+    "price": 550,
+    "thumbnail": "img/img",
+    "code": "S01",
+    "stock": 10,
+    "category": "Sueter",
+    "status": true
   }
 ]

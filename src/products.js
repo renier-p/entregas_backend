@@ -45,11 +45,14 @@ class Products {
     }
   }
 
-  async getProduct() {
+  async getProduct(limit) {
     try {
       const products = await this.readProducts();
-      console.log(products);
-      return products;
+      if (limit) {
+        return products.slice(0, limit);
+      } else {
+        return products;
+      }
     } catch (error) {
       console.log("Error al obtener los productos:", error);
       return [];
